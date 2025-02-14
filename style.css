@@ -1,0 +1,81 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1220px;
+    margin: 0px auto;
+}
+body {
+    font-family: "Open Sans", serif;
+}
+.btn {
+    width: 189px;
+    height: 47px;
+    border-radius: 8px;
+    border-width: 2px;
+    padding-top: 12px;
+    padding-right: 24px;
+    padding-bottom: 12px;
+    padding-left: 24px;
+    background: #FFFFFF;
+    border: 2px solid #DE2E54;
+    margin: 0 0 0 480px;
+    transition: 1s;
+}
+.h{
+  padding-left: 440px;
+  margin: 0 50px 0 0;
+  padding: 250px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    justify-content: center;
+    align-items:center ;
+}
+ul li a {
+    text-decoration: none;
+    color: black;
+}
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ul li a:hover {
+    color: red;
+}
+.d {
+    background-image: url("img/67335de67296644b4f09833c.avif");
+  width: 1350px;
+  height: 800px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.btn:hover{
+    background-color: red;
+}
+.d .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.ota3{
+    display: flex;
+    gap: 54px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+.hijoma p{
+    font-family: Open Sans;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0px;
+    margin: 30px 0;
+}
+nav ul img{
+    margin-bottom: 20px;
+}
